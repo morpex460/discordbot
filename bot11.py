@@ -487,4 +487,5 @@ async def menu(ctx):
     await ctx.send(embed=embed, view=view)
 
 
-bot.run("MTQxNzE3NTg1Njg3NDUyNDY3Mg.GeK6fD.WOQmb_44bIgAWFvqgcRF0euW3SdHr0dfeEx2Eg")
+import os
+bot.run(os.getenv("DISCORD_TOKEN"))
